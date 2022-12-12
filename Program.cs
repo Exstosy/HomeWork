@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Размер массива");
+//Задание № 38
+Console.WriteLine("Размер массива");
 int size = Convert.ToInt32(Console.ReadLine());
 double[] numbers = new double[size];
 FillArrayRandomNumbers(numbers);
