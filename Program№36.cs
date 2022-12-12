@@ -1,8 +1,8 @@
-﻿Console.WriteLine("Введите размер массива");
+﻿Console.WriteLine("Размер массива");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] numbers = new int[size];
 FillArrayRandomNumbers(numbers);
-Console.WriteLine("Вот наш массив: ");
+Console.WriteLine("массив: ");
 PrintArray(numbers);
 int count = 0;
 
