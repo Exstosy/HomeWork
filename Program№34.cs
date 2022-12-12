@@ -1,4 +1,4 @@
-//Задание №36
+//Задание №34
 Console.WriteLine("Размер массива");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] numbers = new int[size];
